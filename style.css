@@ -7,15 +7,18 @@
   scroll-behavior: smooth;
   list-style: none;
 }
+
 .icon {
   display: none;
 }
+
 .container {
   display: grid;
   grid-template-columns: auto 1fr;
   min-height: 100vh;
   background: #f5f7fa;
 }
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -24,13 +27,16 @@
   padding: 0;
   margin: 0;
 }
+
 .container {
   display: grid;
   grid-template-columns: auto 1fr;
 }
+
 .maine-ul {
   margin-top: 20px;
 }
+
 .container .main-container #sidebar {
   height: 100vh;
   width: 300px;
@@ -41,6 +47,7 @@
   box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1);
   border-radius: 0 20px 20px 0;
 }
+
 .dropdown-btn {
   width: 100%;
   text-align: left;
@@ -72,6 +79,7 @@
 .dropdown-btn.active::after {
   transform: translateY(-50%) rotate(180deg);
 }
+
 .container .main-container #sidebar ul li a,
 #sidebar .dropdown-btn {
   border-radius: 5px;
@@ -83,10 +91,12 @@
   align-items: center;
   gap: 1em;
 }
+
 #sidebar a span,
 .dropdown-btn span {
   flex-grow: 1;
 }
+
 #sidebar a:hover,
 .dropdown-btn:hover {
   background: linear-gradient(135deg, #088f4b, #077a3f);
@@ -94,17 +104,14 @@
 }
 
 #sidebar .sub-menu {
-  max-height: 0;
-  transition: all 0.3s ease-out;
-  overflow: hidden;
-  margin-left: 1.5em;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 12px;
-  margin-bottom: 0.5rem;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 300ms ease-in-out;
+  > div {
+    overflow: hidden;
+  }
 }
-#sidebar .sub-menu > div {
-  padding: 0.8rem;
-}
+
 #sidebar .sub-menu.show {
   max-height: 1000px;
   margin-top: 0.5rem;
@@ -129,6 +136,10 @@
   color: white;
   background: linear-gradient(135deg, #0bba62, #099e52);
   transform: translateX(5px);
+}
+
+.drop-down {
+  margin-left: 20px;
 }
 
 .all {
@@ -192,15 +203,19 @@
   border-radius: 15px;
   overflow: hidden;
 }
+
 .table table tr:first-child {
   width: 10%;
 }
+
 .table table tr:last-child {
   width: 10%;
 }
+
 .table table th {
   font-size: 18px;
 }
+
 .table table,
 th,
 td {
@@ -208,6 +223,7 @@ td {
   padding: 5px 7px;
   gap: 10px;
 }
+
 .maine-info ul li {
   margin: 1rem 0;
   padding-left: 2rem;
@@ -222,11 +238,13 @@ td {
   left: 0.5rem;
   font-size: 1.5em;
 }
+
 .maine-sections {
   padding: 2rem 3rem;
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .all-info h2,
 .maine-info h2 {
   font-size: 2.5rem;
@@ -236,18 +254,21 @@ td {
   text-align: center;
   margin-bottom: 1.5rem;
 }
+
 .all-info h1 {
   font-size: 30px;
   text-align: center;
   font-weight: 600;
   margin-bottom: 30px;
 }
+
 .maine-info .info p {
   line-height: 1.8;
   color: #666;
   margin-bottom: 1.5rem;
   font-size: 1.05rem;
 }
+
 .maine-info h4 {
   font-size: 1.5rem;
   color: #0bba62;
@@ -255,12 +276,14 @@ td {
   padding-left: 1rem;
   border-left: 4px solid #0bba62;
 }
+
 .maine-info .info p,
 .frist-section .all-info .send-party p {
   font-weight: 400;
   color: #777;
   margin-bottom: 20px;
 }
+
 .info span {
   display: block;
   width: 80%;
@@ -273,6 +296,7 @@ td {
   border-radius: 0 10px 10px 0;
   margin-bottom: 2rem;
 }
+
 .section-container .maine-info h2 {
   font-size: 30px;
   text-align: center;
