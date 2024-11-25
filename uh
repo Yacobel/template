@@ -1,0 +1,618 @@
+<div class="container">
+      <div class="main-container">
+        <div class="container">
+          <div class="main-container">
+            <!--  -->
+            <nav id="sidebar">
+              <div class="all">
+                <div class="all-sq">
+                  <div class="frist"></div>
+
+                  <div class="secndd"></div>
+                  <div class="therd"></div>
+                </div>
+                <div class="info">
+                  <p>OFPPT</p>
+                </div>
+              </div>
+              <ul class="maine-ul">
+                <li>
+                  <button onclick="togglesubmeun(this)" class="dropdown-btn">
+                    <span>Mise A disposition</span>
+                    <i class="fas fa-chevron-right dropdown-icon"></i>
+                  </button>
+
+                  <ul class="sub-menu">
+                    <div class="drop-down">
+                      <li>
+                        <a href="#secend"><span>Definition</span></a>
+                      </li>
+                      <li>
+                        <a href="#card"><span> cadre juridique </span></a>
+                      </li>
+                      <li>
+                        <a href="#Procédure"><span>procedure</span></a>
+                      </li>
+                    </div>
+                  </ul>
+                </li>
+                <li>
+                  <button onclick="togglesubmeun(this)" class="dropdown-btn">
+                    <span>Détachement</span>
+                    <i class="fas fa-chevron-right dropdown-icon"></i>
+                  </button>
+
+                  <ul class="sub-menu">
+                    <div>
+                      <li>
+                        <a href="#secend"><span>Definition</span></a>
+                      </li>
+                      <li>
+                        <a href="#secend"><span>cadre juridique</span></a>
+                      </li>
+                      <li>
+                        <button onclick="togglesubmeun(this)" class="dropdown-btn">
+                          <span>procedure</span>
+                          <i class="fas fa-chevron-right dropdown-icon"></i>
+                        </button>
+
+                        <ul class="sub-menu">
+                          <div class="drop-down">
+                            <li>
+                              <a href="#secend"><span>1</span></a>
+                            </li>
+                            <li>
+                              <a href="#card"><span>2</span></a>
+                            </li>
+                            <li>
+                              <a href="#Procédure"><span>3</span></a>
+                            </li>
+                          </div>
+                        </ul>
+                      </li>
+                    </div>
+                  </ul>
+                </li>
+                <li>
+                  <button onclick="togglesubmeun(this)" class="dropdown-btn">
+                    <span>Mise en disponibilité </span>
+                    <i class="fas fa-chevron-right dropdown-icon"></i>
+                  </button>
+                  <ul class="sub-menu">
+                    <div class="drop-down">
+                      <li>
+                        <a href=""><span>Definition</span></a>
+                      </li>
+                      <li>
+                        <a href=""><span>cadre juridique</span></a>
+                      </li>
+                      <li>
+                        <a href=""><span>procedure</span></a>
+                      </li>
+                    </div>
+                  </ul>
+                </li>
+                <li>
+                  <button onclick="togglesubmeun(this)" class="dropdown-btn">
+                    <span>Mutations</span>
+                    <i class="fas fa-chevron-right dropdown-icon"></i>
+                  </button>
+                  <ul class="sub-menu">
+                    <div class="drop-down">
+                      <li><a href="">spa</a></li>
+                      <li><a href="">cadre juridique</a></li>
+                      <li><a href="">procedure</a></li>
+                    </div>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="maine-sections">
+            <div class="frist-section" id="frist">
+              <div class="maine-info">
+                <div class="all-info">
+                  <h2>La mobilité du personnel de l'OFPPT</h2>
+                  <h1>
+                    Cadre juridique et guide pratique de la gestion de la
+                    mobilité
+                  </h1>
+                </div>
+                <div class="info">
+                  <h4>Définition</h4>
+                  <p>
+                    «…Sont également réputés en activité de service, les agents
+                    de l'OFPPT mis à la disposition d'une organisation
+                    professionnelle, pour une durée d’une année renouvelable une
+                    seule fois, dans le cadre de programmes spéciaux
+                    d'assistance technique et pédagogique en matière de
+                    formation professionnelle. Les modalités de cette mise à
+                    disposition font l'objet d'un contrat entre l’OFPPT et les
+                    parties intéressées soumis au visa du contrôleur
+                    financier.&nbsp;»
+                  </p>
+                  <span class="article">Article 61 du Statut Particulier Régissant le Personnel de
+                    l’OFPPT 2003
+                  </span>
+                  <div class="send-party">
+                    <p>
+                      La mobilité administrative est considérée comme l'un des
+                      mécanismes incontournable d’optimisation des ressources
+                      humaines et le principal moyen d’assurer l’adéquation
+                      entre les besoins et les ressources. Elle est aussi un
+                      moyen de dynamiser le travail administratif, sur lequel
+                      s'appuie l'administration publique pour surmonter les
+                      différents déséquilibres de gestion et ceux liés à la
+                      mauvaise répartition géographique et sectorielle des
+                      fonctionnaires.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="secend-section" id="secend">
+              <div class="section-container">
+                <div class="maine-info">
+                  <h2>Mise à Disposition</h2>
+                  <div class="info">
+                    <h4>Définition</h4>
+                    <p>
+                      «&nbsp;…Sont également réputés en activité de service, les
+                      agents de l'OFPPT mis à la disposition d'une organisation
+                      professionnelle, pour une durée d’une année renouvelable
+                      une seule fois, dans le cadre de programmes spéciaux
+                      d'assistance technique et pédagogique en matière de
+                      formation professionnelle. Les modalités de cette mise à
+                      disposition font l'objet d'un contrat entre l’OFPPT et les
+                      parties intéressées soumis au visa du contrôleur
+                      financier.&nbsp;»
+                    </p>
+                    <p>
+                      «&nbsp;Le fonctionnaire est en situation de mise à Disposition
+                      lorsque, tout en relevant de son cadre dans son
+                      administration d’origine au sein d’une administration
+                      publique ou d’une collectivité locale et y occupant son
+                      poste budgétaire, il exerce ses fonctions dans une autre
+                      administration publique. Le fonctionnaire mis à
+                      Disposition conserve, au sein de son administration ou
+                      collectivité d’origine, tous ses droits à la rémunération,
+                      à l’avancement et à la retraite.
+                    </p>
+                    <p>
+                      La mise à Disposition ne peut avoir lieu que pour les
+                      besoins nécessaires du service, afin de réaliser des
+                      missions déterminées durant une période limitée et avec
+                      l’accord du fonctionnaire. Le fonctionnaire mis à
+                      Disposition exerce des missions d’un niveau hiérarchique
+                      similaire à celui des missions qu’il exerçait dans son
+                      administration ou collectivité d’origine, avec
+                      l’obligation de lui soumettre un rapport périodique afin
+                      de lui permettre de poursuivre son activité.»
+                    </p>
+                    <span>Art 46ter du Dahir n° 1.58.008 du 4 chaabane 1377 (24
+                      février 1958) portant statut général de la fonction
+                      publique.
+                    </span>
+                  </div>
+                  <h4 id="card">Cadre juridique</h4>
+                  <div class="table">
+                    <table>
+                      <tbody><tr>
+                        <th>REF</th>
+                        <th>Document</th>
+                        <th>Article</th>
+                      </tr>
+                      <tr>
+                        <td>REF01</td>
+                        <td>
+                          Dahir n° 1-58-008 du 4 chaabane 1377 (24 février 1958)
+                          portant statut général de la fonction publique tel
+                          qu'il a été modifié et complété
+                        </td>
+                        <th>46ter</th>
+                      </tr>
+                      <tr>
+                        <td>REF19</td>
+                        <td>Statut Particulier du Personnel de l’OFPPT 2003</td>
+                        <th>61</th>
+                      </tr>
+                      <tr>
+                        <td>REF02</td>
+                        <td>
+                          Décret N° 2.13.422 du 28 Rabii I 1435 (30 Janvier
+                          2014) relatif aux modalités de l'application de
+                          l’article 46 du Dahir n° 1-58-008 du 4 chaabane 1377
+                          (24 février 1958) portant statut général de la
+                          fonction publique relative à la mise à disposition.
+                        </td>
+                        <th>4,5 ,6 et 8</th>
+                      </tr>
+                      <tr>
+                        <td>REF14</td>
+                        <td>
+                          Arrêté du ministre de l'économie et des finances n°
+                          713-18 du 23 joumada II 1439 (12 mars 2018) fixant la
+                          nomenclature des pièces justificatives des
+                          propositions d'engagement et de paiement des dépenses
+                          de l'Etat.
+                        </td>
+                        <th>Point 7</th>
+                      </tr>
+                      <tr>
+                        <td>REF20</td>
+                        <td>
+                          Décret n°&nbsp;2-10-224&nbsp;du 16 kaada 1431 (25 octobre 2010)
+                          fixant les conditions de mise à disposition des
+                          fonctionnaires, des agents de l’Etat, des
+                          collectivités locales et établissements publics pour
+                          l’exercice à plein temps de la fonction de président
+                          du conseil communal, de président du conseil
+                          d’arrondissement et de président du groupement des
+                          communes.
+                        </td>
+                        <th>Point 7</th>
+                      </tr>
+                    </tbody></table>
+                  </div>
+                  <h4 id="Procédure">
+                    Procédure de Mise d'un agent à la Disposition organisation
+                    professionnelle.
+                  </h4>
+                  <ul>
+                    <p>Descriptions des tâches</p>
+                    <li>
+                      Réception d’une demande de mise à disposition de
+                      l’administration
+                    </li>
+                    <li>
+                      Examen de la demande de mise à disposition et en informe
+                      de l'agent concerné pour avoir son avis et prendre la
+                      décision.
+                    </li>
+                    <li>Notifie à l’intéressé l'avis favorable.</li>
+                    <li>
+                      Élaboration et signature de la décision l’arrêté de mise à
+                      disposition.
+                    </li>
+                    <li>
+                      Envoi de l'arrêté de mise à disposition au trésorier
+                      payeur au contrôleur financier pour Visa
+                    </li>
+                    <li>
+                      <span style="color: red">Contrôleur financier</span>,
+                      Contrôle, visa et retour de la décision
+                    </li>
+                    <li>
+                      Notification de la décision visée à&nbsp;:
+                      <ul>
+                        <li>L’intéressé</li>
+                        <li>Service paie</li>
+                        <li>La DAS</li>
+                        <li>DCF</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Mise à jour de la base de données, Classement dans le
+                      dossier de l’agent Décision
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="therd-section" id="secend">
+              <div class="section-container">
+                <div class="maine-info">
+                  <h2>Détachement</h2>
+                  <div class="info">
+                    <h4>Définition</h4>
+                    <p>
+                      « L'agent titulaire est en position de détachement
+                      lorsqu’il est placé hors de son cadre d’origine à l’Office
+                      mais continue à appartenir à ce cadre et à y bénéficier
+                      uniquement de ses droits à l'avancement et à la retraite.
+                      Le détachement est prononcé sur demande de l’agent et
+                      présente un caractère essentiellement révocable. »
+                    </p>
+                    <span>
+                      Article 68 du Statut Particulier Régissant le Personnel de
+                      l’OFPPT 2003
+                    </span>
+                    <p>
+                      « Le fonctionnaire est en position de détachement
+                      lorsqu'il est placé hors de son cadre d'origine mais
+                      continue à appartenir à ce cadre et à y bénéficier de ses
+                      droits à l'avancement et à la retraite »
+                    </p>
+                    <span>
+                      Art 47 du Dahir n° 1.58.008 du 4 chaabane 1377 (24 février
+                      1958) portant statut général de la fonction publiques
+                    </span>
+                  </div>
+                  <h4 id="card">Cadre juridique</h4>
+                  <div class="table">
+                    <table>
+                      <tbody><tr>
+                        <th>REF</th>
+                        <th>Document</th>
+                        <th>Article</th>
+                      </tr>
+                      <tr>
+                        <td>REF01</td>
+                        <td>
+                          Dahir n° 1-58-008 du 4 chaabane 1377 (24 février 1958)
+                          portant statut général de la fonction publique tel
+                          qu'il a été modifié et complété
+                        </td>
+                        <th>6, 38 ter,47 à 53, 65</th>
+                      </tr>
+                      <tr>
+                        <td>REF19</td>
+                        <td>Statut Particulier du Personnel de l’OFPPT 2003</td>
+                        <th>68 à 71</th>
+                      </tr>
+                      <tr>
+                        <td>REF03</td>
+                        <td>
+                          Décret N° 2.13.423 du 28 Rabii I 1435 (30 Janvier
+                          2014) relatif aux modalités de l'application des
+                          articles 48, 48 bis et 50 du Dahir n° 1-58-008 du 4
+                          chaabane 1377 (24 février 1958) portant statut général
+                          de la fonction publique relatives au détachement et
+                          intégration des fonctionnaires détachés.
+                        </td>
+                        <th>1,4</th>
+                      </tr>
+                      <tr>
+                        <td>REF04</td>
+                        <td>
+                          Décret n° 2-59-0200 du 26 chaoual 1378 (5 mai 1959)
+                          portant application de l'article 11 du dahir portant
+                          statut général de la fonction publique relatif aux
+                          commissions administratives paritaires tel qu’il a été
+                          complété et modifié
+                        </td>
+                        <th>11, 25</th>
+                      </tr>
+                      <tr>
+                        <td>REF21</td>
+                        <td>
+                          Dahir n° 1-03-195 du 16 ramadan 1424 portant
+                          promulgation de la loi n° 69-00 relative au contrôle
+                          financier de l'Etat sur les entreprises publiques et
+                          autres organismes (B.O. du 18 décembre 2003).
+                        </td>
+                        <th>1</th>
+                      </tr>
+                      <tr>
+                        <td>REF06</td>
+                        <td>
+                          Décret royal n° 62-68 du 19 safar 1388 ( 17 mai 1968 )
+                          fixant les dispositions applicables aux fonctionnaires
+                          stagiaires des administrations publiques
+                        </td>
+                        <th>4</th>
+                      </tr>
+                      <tr>
+                        <td>REF08</td>
+                        <td>
+                          Circulaire n° 1-84-FP du 5 janvier 1984, détachement
+                          des fonctionnaires auprès des établissements publics.
+                        </td>
+                        <th>---</th>
+                      </tr>
+                      <tr>
+                        <td>REF10</td>
+                        <td>
+                          Circulaire n° 33-95-cab du 19 rebia I 1416 (17 août
+                          1995) relative à la situation des retraites des
+                          fonctionnaires détachés ou mis en disponibilité.
+                        </td>
+                        <th>---</th>
+                      </tr>
+                      <tr>
+                        <td>REF11</td>
+                        <td>
+                          Circulaire n° 6-05-FP du 15 joumada II 1426 (22
+                          juillet 2005) relative à la gestion de la situation du
+                          détachement et la mise en disponibilité
+                        </td>
+                        <th>---</th>
+                      </tr>
+                      <tr>
+                        <td>REF12</td>
+                        <td>
+                          Circulaire n° 7-86-cab du 9 chaabane 1406 (29 avril
+                          1986) relative au maintien des fonctionnaires en
+                          position de détachement jusqu'à la vacance d'un poste
+                          budgétaire.
+                        </td>
+                        <th>---</th>
+                      </tr>
+                      <tr>
+                        <td>REF14</td>
+                        <td>
+                          Arrêté du ministre de l'économie et des finances n°
+                          713-18 du 23 joumada II 1439 (12 mars 2018) fixant la
+                          nomenclature des pièces justificatives des
+                          propositions d'engagement et de paiement des dépenses
+                          de l'Etat.
+                        </td>
+                        <th>Point 8</th>
+                      </tr>
+                    </tbody></table>
+                  </div>
+                  <h4 id="Procédure">Procédure</h4>
+                  <h5>Détachement un agent OFPPT</h5>
+                  <h3>A. Détachement auprès d'une autre administration</h3>
+                  <p>
+                    Mise en position de détachement à la demande d’un agent
+                    OFPPT ou à la demande de l’administration publique d’accueil
+                  </p>
+                  <ul type="1">
+                    <p>Descriptions des tâches</p>
+                    <li>
+                      Réception de la demande de l’intéressé assortie de l’avis
+                      de la hiérarchie ou demande de l’administration d’accueil
+                      ;
+                    </li>
+                    <li>
+                      Etude de la demande de détachement et avis de la direction
+                      des ressources humaines de l’OFPPT
+                    </li>
+                    <li>
+                      Si Avis favorable des administrations d’accueil et de
+                      l’OFPPT. Notification à l’intéressé de l'accord et la date
+                      de détachement
+                    </li>
+                    <li>
+                      Elaboration de l’arrêté conjoint de détachement par
+                      l’OFPPT, signature de la Directrice générale et l’envoi de
+                      l’arrêté à l’administration d’accueil pour visa
+                    </li>
+                    <li>
+                      Etablissement du compte rendu de cessation de service
+                      (décharge du détaché de ses fonctions à l’OFPPT)
+                    </li>
+                    <li>
+                      L’administration d’accueil : envoi de la décision conjoint
+                      de détachement signée par les deux parties
+                    </li>
+                    <li>
+                      Trésorier Payeur de l’OFPPT : visa de l’arrêté et
+                      préparation du CCP.
+                    </li>
+                    <li>
+                      OFPPT : envoi d’une copie certifiée conforme de l’arrêté
+                      conjoint de détachement accompagné du CCP auprès de
+                      l'administration d’accueil pour attribution.
+                    </li>
+                    <li>
+                      Administration d’accueil : traitement du dossier de
+                      détachement pour procéder au règlement de la situation du
+                      détaché au sein de l’administration
+                    </li>
+                    <li>
+                      OFPPT : Réception de la prise de service à Administration
+                      d'accueil.
+                    </li>
+                    <li>
+                      Administration d’accueil : Mise à jour de la base de
+                      données dossier et classement d'une copie dans le dossier
+                      de l’agent (Demande ; décision de détachement ; Certificat
+                      de cessation de paiement,)
+                    </li>
+                  </ul>
+                  <h3>
+           B.          Détachement auprès d'un organisme international ou d'un Etat
+                    étranger
+                  </h3>
+                  <p>
+                    Mise en position de détachement d’un agent OFPPT à la
+                    demande de l’agent ou auprès d'un organisme international ou
+                    d'un Etat
+                  </p>
+                  <ul type="1">
+                    <p>Descriptions des tâches</p>
+                    <li>
+                      Demande de l’intéressé assortie de l’avis de la hiérarchie
+                      ou demande l’organisme d’accueil
+                    </li>
+                    <li>Etude de la demande de détachement et décision</li>
+                    <li>
+                      Si Décision favorable, consultation de l’organisme
+                      d’accueil si demande faite par l’intéressé
+                    </li>
+                    <li>
+                      Si Avis favorable de l’organisme d’accueil, Notification à
+                      l’intéressé de la décision de détachement
+                    </li>
+                    <li>
+                      Etablissement du compte rendu de cessation de service
+                      (décharge du détaché de ses fonctions à l’OFPPT)
+                    </li>
+                    <li>
+                      Notification de la date de détachement et demande du CCP
+                      (Certificat de Cessation de Paiement) au Trésorier payeur
+                      de l’OFPPT
+                    </li>
+                    <li>
+                      Trésorier payeur : Prise en charge et établissement du CCP
+                    </li>
+                    <li>
+                      Libéralisation du poste budgétaire, édition et signature
+                      de la décision de détachement et transmission au Trésorier
+                      payeur de l’OFPPT pour visa
+                    </li>
+                    <li>
+                      Contrôle, visa du Trésorier payeur de l’OFPPT et retour à
+                      l'ordonnateur
+                    </li>
+                    <li>
+                      Mise à jour de la base de données, notification de la
+                      Décision visée à l’intéressé et classement d'une copie
+                      dans le dossier de l’agent (décision de détachement ;
+                      Certificat de cessation de paiement, le cas échéant)
+                    </li>
+                  </ul>
+                  <h3>C. Détachement pour mandat public ou syndical</h3>
+                  <p>
+                    Détachement pour exercer un mandat public ou un mandat
+                    syndical lorsque l'un ou l'autre comporte des obligations
+                    empêchant l'exercice de la fonction ou auprès d’un cabinet
+                    ministériel
+                  </p>
+                  <ul>
+                    <p>Descriptions des tâches</p>
+                    <li>
+                      Réception de la demande de détachement de l’intéressé,
+                    </li>
+                    <li>
+                      Examen et décision de la demande de détachement de
+                      l’intéressé
+                    </li>
+                    <li>
+                      Si Décision favorable : Notification à l’intéressé de la
+                      décision de détachement et demande de cessation de service
+                    </li>
+                    <li>
+                      Etablissement du compte rendu de cessation de service
+                      (décharge du détaché de ses fonctions à l’OFPPT)
+                    </li>
+                    <li>
+                      Notification de la date de détachement et demande du
+                      Certificat de Cessation de Paiement (CCP) au trésorier
+                      payeur de l’OFPPT
+                    </li>
+
+                    <li>
+                      Trésorier payeur de l’OFPPT : Prise en charge et
+                      élaboration du certificat de cessation de paiement
+                    </li>
+                    <li>
+                      Libéralisation du poste budgétaire, édition de la décision
+                      de détachement, signature et transmission accompagné du
+                      CCP au Trésorier payeur de l’OFPPT pour visa
+                    </li>
+                    <li>
+                      Trésorier payeur de l’OFPPT: Contrôle, visa de la décision
+                      de détachement et retour du dossier
+                    </li>
+                    <li>
+                      Mise à jour de la base de données, notification de la
+                      décision visée à :
+                      <ol style="list-style-type: lower-alpha;">
+                        <li style="list-style-type: revert;">L’intéressé</li>
+                        <li style="list-style-type: revert;">Service paie</li>
+                        <li style="list-style-type: revert;">La DAS</li>
+                        <li style="list-style-type: revert;">Division des carrières et de la formation</li>
+                      </ol>
+                    </li>
+                    <li>classement d'une copie dans le dossier de l’agent.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
