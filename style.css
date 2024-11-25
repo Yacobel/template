@@ -94,8 +94,8 @@
   grid-template-rows: 1fr;
 }
 
-.sub-menu.main-container {
-  margin-left: 10px;
+.drop-down {
+  margin-left: 20px;
 }
 
 .all {
