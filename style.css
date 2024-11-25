@@ -7,12 +7,15 @@
   scroll-behavior: smooth;
   list-style: none;
 }
+
 .icon {
   display: none;
 }
+
 .container {
   display: flex;
 }
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -21,13 +24,16 @@
   padding: 0;
   margin: 0;
 }
+
 .container {
   display: grid;
   grid-template-columns: auto 1fr;
 }
+
 .maine-ul {
   margin-top: 20px;
 }
+
 .container .main-container #sidebar {
   height: 100%;
   width: 250px;
@@ -37,6 +43,7 @@
   top: 0;
   align-self: start;
 }
+
 .dropdown-btn {
   width: 100%;
   text-align: left;
@@ -44,6 +51,7 @@
   border: none;
   cursor: pointer;
 }
+
 .container .main-container #sidebar ul li a,
 #sidebar .dropdown-btn {
   border-radius: 5px;
@@ -55,10 +63,12 @@
   align-items: center;
   gap: 1em;
 }
+
 #sidebar a span,
 .dropdown-btn span {
   flex-grow: 1;
 }
+
 #sidebar a:hover,
 .dropdown-btn:hover {
   background-color: #088f4b;
@@ -68,12 +78,18 @@
   display: grid;
   grid-template-rows: 0fr;
   transition: 300ms ease-in-out;
-  > div {
+
+  >div {
     overflow: hidden;
   }
 }
+
 #sidebar .sub-menu.show {
   grid-template-rows: 1fr;
+}
+
+.drop-down {
+  margin-left: 20px;
 }
 
 .all {
@@ -130,15 +146,19 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .table table tr:first-child {
   width: 10%;
 }
+
 .table table tr:last-child {
   width: 10%;
 }
+
 .table table th {
   font-size: 18px;
 }
+
 .table table,
 th,
 td {
@@ -146,15 +166,18 @@ td {
   padding: 5px 7px;
   gap: 10px;
 }
+
 .maine-info ul li {
   margin-top: 20px;
   list-style-type: disc;
   margin-left: 80px;
 }
+
 .maine-sections {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .all-info h2,
 .maine-info h2 {
   font-size: 41px;
@@ -162,26 +185,31 @@ td {
   padding: 40px 0px 20px 0px;
   color: #085196;
 }
+
 .all-info h1 {
   font-size: 30px;
   text-align: center;
   font-weight: 600;
   margin-bottom: 30px;
 }
+
 .maine-info .info p {
   padding: 0px 20px 0px 20px;
 }
+
 .maine-info h4 {
   font-size: 25px;
   margin-bottom: 20px;
   color: #088f4b;
 }
+
 .maine-info .info p,
 .frist-section .all-info .send-party p {
   font-weight: 400;
   color: #777;
   margin-bottom: 20px;
 }
+
 .info span {
   width: 60%;
   margin-left: auto;
@@ -190,6 +218,7 @@ td {
   margin-bottom: 20px;
   font-weight: 800;
 }
+
 .section-container .maine-info h2 {
   font-size: 30px;
   text-align: center;
